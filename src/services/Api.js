@@ -3,7 +3,7 @@ const options = {
     protocol: 'https',
     versionPath: '/api/v2/',
     cacheLimit: 900 * 1000, // 15min
-    timeout: 5 * 1000 // 5s
+    timeout: 10 * 1000 // 10s
   }
 
 const P = new Pocedex(options);
